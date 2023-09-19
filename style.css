@@ -441,7 +441,7 @@ section {
     background: (250, 250, 250);
     margin:  2rem auto;
     padding: 0.5rem;
-    animation: float 2s ease-out infinite;
+    animation: float 5s ease-out infinite;
   }
   
   
