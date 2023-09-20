@@ -101,7 +101,8 @@ a:hover{
     max-height: 0;
     overflow: hidden;
     transition: all 0.3s ease-in-out ;
-    border-radius: 1.5rem;
+    border-radius: .8rem;
+    z-index: 1;
 }
 
 .menu-links a{
