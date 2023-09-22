@@ -176,25 +176,15 @@ section {
     width: 400px;
     margin: auto 0;
     filter: drop-shadow(10px 10px 20px);
+}
+#profile .section__pic-container{
     animation: float 6s ease-in-out infinite;
 }
 
 @keyframes float {
-    0%{
-        transform: translateX(0px);
-    }
-    25%{
-        transform: translateX(-15px);
-    }
-    50%{
-        transform: translateY(-15px);
-    }
-    75%{
-        transform: translateZ(15px);
-    }
-    100%{
-        transform: translateX(0px);
-    }
+      from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
 }
 
 
