@@ -178,7 +178,7 @@ section {
     filter: drop-shadow(10px 10px 20px);
 }
 #profile .section__pic-container{
-    animation: float 6s ease-in-out infinite;
+    animation: float 3s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -432,7 +432,7 @@ section {
     background: (250, 250, 250);
     margin:  2rem auto;
     padding: 0.5rem;
-    animation: float 5s ease-out infinite;
+   
   }
   
   
