@@ -412,6 +412,30 @@ section {
     color: black;
     border-color: rgb(163,163,163);
   }
+.option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-links {
+  padding: 10px 30px;
+  width: max-content;
+  height: max-content;
+  border-radius: 25px;
+  background-color: #604a37;
+  font-size: 20px;
+  color: #fff;
+  border: none;
+  transition: all 0.5s;
+}
+.project-links:hover {
+  background-color: #422911;
+  scale: 0.8;
+}
+#atag {
+  text-decoration: none;
+}
+
 
 /*Contact*/
 
