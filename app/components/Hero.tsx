@@ -3,7 +3,7 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
-
+import Link from "next/link";
 const Hero = () => {
   return (
     <div className="pb-20 pt-36">
@@ -43,13 +43,13 @@ const Hero = () => {
             Hi, I&apos;m sadiq, a frontend developer and aspiring full-stack
             engineer based in India.
           </p>
-          <a href="#about">
+          <Link href="#about">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
               position="right"
             />
-          </a>
+          </Link>
         </div>
       </div>
       {/* <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
