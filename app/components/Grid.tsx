@@ -9,6 +9,7 @@ const Grid = () => {
             {gridItems.map(({id, title,description, className, img, imgClassName, titleClassName, spareImg})=> (
                 <BentoGridItem
                     id={id}
+                                                           //48.21 from this u need to see the video
                     key={id}
                     title={title}
                     description={description}
@@ -25,3 +26,5 @@ const Grid = () => {
 }
 
 export default Grid
+
+
