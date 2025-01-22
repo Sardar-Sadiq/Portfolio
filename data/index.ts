@@ -107,7 +107,7 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Sadiq was an absolute pleasure. His dedication to delivering exceptional results were evident throughout our project. Sadiq's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Sadiq is the ideal partner.",
+      "Working with Sadiq was an absolute pleasure. His creativity, dedication, and passion for development were evident in every aspect of our project. If you're looking to elevate your website and brand, Sadiq is the perfect collaborator.",
     name: "Prashanth Kumar",
     title: "Leader of Web dev team of Zummit info labs",
   },
