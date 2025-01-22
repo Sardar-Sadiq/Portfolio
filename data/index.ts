@@ -119,32 +119,33 @@ export const testimonials = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Frontend Development Lead & UI Designer intern",
+    desc: "Contributed as a frontend development and UI design intern on a hospital management website, supporting the project from initial concept to deployment and ensuring a seamless, user-friendly experience",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    id: 2,
+    title: "Web dev intern",
+    desc: "Developed and maintained user-facing features for an e-commerce website. Collaborated with foreign clients across different time zones to meet project requirements and deliver high-quality results.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
+  // {
+  //   id: 3,
+  //   title: "Frontend Engineer Intern",
+  //   desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+  //   className: "md:col-span-2",
+  //   thumbnail: "/exp1.svg",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Mobile App Dev - JSM Tech",
+  //   desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+  //   className: "md:col-span-2", // change to md:col-span-2
+  //   thumbnail: "/exp2.svg",
+  // },
+  
 ];
 
 export const socialMedia = [
