@@ -90,7 +90,7 @@ export const projects = [
     id: 3,
     title: "BookStore - Library Management System",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    img: "/p3.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/redis.svg","/post.svg"],
     links: "#still_building O_O",
   },
