@@ -88,11 +88,11 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
+    title: "BookStore - Library Management System",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    links: "/ui.aiimg.com",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/redis.svg","/post.svg"],
+    links: "#still_building O_O",
   },
   {
     id: 4,
