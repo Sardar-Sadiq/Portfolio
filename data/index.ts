@@ -72,17 +72,17 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Zentry website clone",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Zentry gaming website ",
+    des: "Recreated the Zentry gaming website called REDEFINE, combining GSAP animations and 3D effects..",
     img: "/p1.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://gamingwebsite-phi.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "BrainWave AI",
+    des: "Recreated the brainwave AI website, combining GSAP animations and Three.js.",
+    img: "/p2.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
