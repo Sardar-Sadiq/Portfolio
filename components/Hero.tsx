@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./MagicButton";

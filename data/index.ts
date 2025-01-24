@@ -84,7 +84,7 @@ export const projects = [
     des: "Recreated the brainwave AI website, combining GSAP animations and Three.js.",
     img: "/p2.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://brainwave-clone-three.vercel.app/",
   },
   {
     id: 3,
