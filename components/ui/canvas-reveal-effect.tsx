@@ -65,7 +65,7 @@ const DotMatrix: React.FC<DotMatrixProps> = ({
   shader = "",
   center = ["x", "y"],
 }) => {
-  const uniforms = React.useMemo(() => {
+  const uniforms: Uniforms = React.useMemo(() => {
     let colorsArray = [
       colors[0],
       colors[0],
@@ -93,7 +93,7 @@ const DotMatrix: React.FC<DotMatrixProps> = ({
         colors[2],
       ];
     }
-
+  
     return {
       u_colors: {
         value: colorsArray.map((color) => [
@@ -116,7 +116,8 @@ const DotMatrix: React.FC<DotMatrixProps> = ({
         type: "uniform1f",
       },
     };
-  }, [colors, opacities, totalSize, dotSize]);
+  }, [colors, opacities, totalSize, dotSize]); 
+  
 
   return (
     <Shader
@@ -192,7 +193,7 @@ const ShaderMaterial = ({
   uniforms: Uniforms;
 }) => {
   const { size } = useThree();
-  const ref = useRef<THREE.Mesh>();
+  const ref = useRef<THREE.Mesh>(null);
   let lastFrameTime = 0;
 
   useFrame(({ clock }) => {
@@ -208,12 +209,12 @@ const ShaderMaterial = ({
     timeLocation.value = timestamp;
   });
 
-  const getUniforms = () => {
-    const preparedUniforms: any = {};
-
+  const getUniforms = (): Uniforms => {
+    const preparedUniforms: Uniforms = {};
+  
     for (const uniformName in uniforms) {
-      const uniform: any = uniforms[uniformName];
-
+      const uniform = uniforms[uniformName];
+  
       switch (uniform.type) {
         case "uniform1f":
           preparedUniforms[uniformName] = { value: uniform.value, type: "1f" };
@@ -246,13 +247,14 @@ const ShaderMaterial = ({
           break;
       }
     }
-
+  
     preparedUniforms["u_time"] = { value: 0, type: "1f" };
     preparedUniforms["u_resolution"] = {
       value: new THREE.Vector2(size.width * 2, size.height * 2),
     }; // Initialize u_resolution
     return preparedUniforms;
   };
+  
 
   // Shader material
   const material = useMemo(() => {
@@ -279,7 +281,7 @@ const ShaderMaterial = ({
     });
 
     return materialObject;
-  }, [size.width, size.height, source]);
+  }, [source, getUniforms]);
 
   return (
     <mesh ref={ref as any}>
