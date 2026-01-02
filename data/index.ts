@@ -88,19 +88,19 @@ export const projects = [
   },
   {
     id: 3,
-    title: "BookStore - Library Management System",
+    title: "AI Image Enhancer",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/redis.svg","/post.svg"],
-    links: "#still_building O_O",
+    img: "/pro3.png",
+    iconLists: ["/re.svg", "/tail.svg", ],
+    link: "https://image-enhancer-bice.vercel.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
+    title: "AI Resume Enhancer",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://i15proclone-sadiq.vercel.app/",
+    iconLists: ["/re.svg", "/tail.svg",],
+    link: "https://ai-resume-analyzer-nine-pearl.vercel.app/",
   },
 ];
 
